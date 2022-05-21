@@ -116,6 +116,16 @@ void ofApp::keyPressed(int key){
                 password = password2;
                 message_draft = "Changed user to booker";
             }
+            else if(message_draft == "cristian"){
+                username = "cristian";
+                password = password3;
+                message_draft = "Changed user to cristian";
+            }
+            else if(message_draft == "jeremiah"){
+                username = "jeremiah";
+                password = "admin1";
+                message_draft = "Changed user to jeremiah";
+            }
             request.body = "username="+username+"&password="+password+"&message=" + message_draft;
             ofURLFileLoader http;
             auto response = http.handleRequest(request);

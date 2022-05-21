@@ -17,6 +17,7 @@ class ofApp : public ofBaseApp{
 		std::string username = "jeremiah";
 		std::string password = "admin1";
 		std::string password2 = "password1";
+		std::string password3 = "password3";
         int scrollCenter;
 		int bottomMessage = 11;
 		int topMessage = 0;
